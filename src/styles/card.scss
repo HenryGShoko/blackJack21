@@ -1,0 +1,35 @@
+.card-container {
+  max-width: 240px;
+  min-width: 240px;
+  padding: 27px 6px;
+  text-align: center;
+  margin: 1rem;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  box-shadow: 0 13px 7px #316cb3;
+
+  .user-img {
+    width: 120px;
+    height: 130px;
+  }
+
+  h3 {
+    margin: 0;
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px;
+    color: #e94560;
+  }
+
+  h4 {
+    margin: 0;
+    font-family: "Lobster", cursive;
+    padding: 5px 0;
+    color: #e94560;
+    letter-spacing: 2px;
+  }
+
+  .card-image {
+    width: 85px;
+    height: 110px;
+    padding-left: 5px;
+  }
+}

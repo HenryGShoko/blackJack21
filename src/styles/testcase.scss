@@ -1,0 +1,42 @@
+.test-case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testcase-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.game-name {
+  font-family: "Lobster", cursive;
+  color: #316cb3;
+  letter-spacing: 2px;
+}
+.vs-image {
+  width: 100px;
+  margin: 10px 0;
+}
+.players {
+  margin: 0;
+  font-size: 26px;
+  font-family: "Lobster", cursive;
+  color: #e94560;
+  letter-spacing: 2px;
+}
+.test-btn {
+  padding: 8px 16px;
+  font-size: 20px;
+  background-color: #1a1a2e;
+  color: #e94560;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  font-family: "Lobster", cursive;
+  box-shadow: 0 13px 7px #316cb3;
+  cursor: pointer;
+  border-radius: 3px;
+}
